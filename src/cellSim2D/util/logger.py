@@ -5,7 +5,7 @@ from pathlib import Path
 
 # SHARED LOGGER FOR THIS PACKAGE
 
-_logger = logging.getLogger('template')
+_logger = logging.getLogger('cellSim2D')
 
 def configure_logger(print_level: str = 'info', logfile: Optional[Path] = None):
     """

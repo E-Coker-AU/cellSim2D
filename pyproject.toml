@@ -8,11 +8,10 @@ name = "template_project" #TODO: Set project name
 version = "0.0.1"
 #TODO: Set authors
 authors = [
-    { name="Caleb Pulley", email="elc0055@auburn.edu" }
     { name="Ethan Coker", email="elc0055@auburn.edu" }
 ]
 #TODO: Short Description
-description = "A template Python package for starting new projects"
+description = "A Python package for calculating forces exerted on cells in 2D channels"
 requires-python = ">=3.10"
 classifiers = [
     "Programming Language :: Python :: 3"

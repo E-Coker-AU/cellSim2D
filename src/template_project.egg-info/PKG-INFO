@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: template_project
+Version: 0.0.1
+Summary: A Python package for calculating forces exerted on cells in 2D channels
+Author-email: Ethan Coker <elc0055@auburn.edu>
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: scikit-learn
+Requires-Dist: tqdm
+Requires-Dist: pyyaml
+Requires-Dist: pytest
