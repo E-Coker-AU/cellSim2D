@@ -1,1 +1,9 @@
 .venv/
+*.pkl
+temp_*
+*:Zone.Identifier
+
+__pycache__/
+*.py[cod]
+*$py.class
+bin

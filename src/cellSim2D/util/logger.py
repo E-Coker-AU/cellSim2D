@@ -41,7 +41,7 @@ def configure_logger(print_level: str = 'info', logfile: Optional[Path] = None):
         handler.setLevel(stdout_level)
 
         formatter = logging.Formatter(
-            "[%(filename)s: %(lineno)d || %(funcName)s]: %(Message)s"
+            "[%(filename)s: %(lineno)d || %(funcName)s]: %(message)s"
         )
         handler.setFormatter(formatter)
         _logger.addHandler(handler)
